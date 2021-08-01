@@ -1,0 +1,92 @@
+.App {
+  color: beige;
+  background-color: rgb(47, 29, 65);
+}
+.main {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+.t {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+.form_d {
+  margin: auto 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(165, 161, 161);
+}
+.fs,
+.us {
+  margin-left: 20px;
+  overflow: hidden;
+}
+.u,
+.s,
+.c,
+.z {
+  margin: 10px;
+}
+.btns {
+  display: flex;
+}
+.container {
+  text-align: center;
+  width: 70%;
+}
+@media (min-width: 1200px) {
+  .form_m {
+    width: 1000px;
+  }
+  .fn {
+    width: 150px;
+  }
+  .us {
+    width: 150px;
+  }
+  .fs,
+  .us {
+    margin-left: 0px;
+  }
+  .btns {
+    display: flex;
+    margin-left: 0px;
+  }
+}
+@media (min-width: 360px) and (max-width: 640px) {
+  .main {
+    width: 90%;
+    font-size: 12px;
+  }
+  input,
+  .form-control {
+    font-size: 12px;
+  }
+  .form_d {
+    margin: 0px 100px;
+    border-bottom: 0px solid rgb(165, 161, 161);
+  }
+  .title {
+    text-align: center;
+  }
+  .fn {
+    width: 100px;
+  }
+  .us {
+    margin: 0px 10px;
+    width: 100px;
+  }
+  .btns {
+    display: flex;
+    margin: 0px 10px;
+  }
+  .btn_ {
+    margin: 1px;
+    font-size: 8px;
+    width: 40px;
+  }
+}
